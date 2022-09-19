@@ -4,9 +4,26 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
 
+p.indent{
+    text-indent: 50px;
+  }
 
+p.firstp::first-letter {
+    font-size: xx-large;
+}
 
+p{
+    display: block;
+}
 
+p::before {
+    text-indent: 50%;
+  }
 
-
+.foot{
+    text-align: center;
+}

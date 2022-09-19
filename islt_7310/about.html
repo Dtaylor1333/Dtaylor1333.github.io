@@ -1,3 +1,18 @@
+<!--
+*****************************************************************************
+Title:  Home page
+
+Use:  To create the first step of my website and share about myself
+
+Author:  DeAndre Taylor  
+
+School/Term:  University of Missouri, Fall 2022
+
+Developed: 9/17/2022
+
+Tested:  Sep 18, 2022; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
@@ -5,21 +20,38 @@
         <title>Page Title</title>
     </head>
     <body>
+        <nav>
+            <div class="dropdown">  
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    
+                       
+                    <li><a href="#project.html">Projects</a>
+                        <div class="dropdown-content">
+                            <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="reflection.html">Personal Reflection</a></li>
+                    <li><a href="#contact.html">Contact Me</a></li>
+                    <li><a href="#project.html">My Projects</a></li>
+                </ul>
+            </div>
+        </nav>
         <header>
             <h1>DeAndre Taylor</h1>
         </header>
-
-        <nav>
-
-        </nav>
-
         <main>
             <h3>My About Page</h3>
             <p>I’m a senior at the <em>University of Missouri</em> studying <strong>Information Technology and Business</strong>. In late December, I will be receiving my Bachelors of Science in <em>Information Technology</em> and a minor in <em>Business Administration.</em> One of my favorite quotes/sayings is <br> <blockquote>“I am better than no man and no man is better than me.” </blockquote> <p>I’m not exactly sure who it’s by but it is something that I try to live by.</p>
             <a href="TaylorResume.pdf" >Here's the link to my resume!</a>
         </main>
 
-        <footer>
+        <footer class="foot">
             <p>Name: DeAndre Taylor</p><br>
             <p>MU Email: Dtz8k@umsystem.edu</p><br>
             <p>Copyright @ 2022 by DeAndre Taylor</p>
