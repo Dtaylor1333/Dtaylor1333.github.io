@@ -2,10 +2,12 @@
 h1{
     color: #003300;
     text-align: center;
+    margin-top: 20px;
 }
 
-h2{
+h2,h3{
     text-align: center;
+    margin-top: 25px;
 }
 
 p.indent{
@@ -18,6 +20,17 @@ p.firstp::first-letter {
 
 p{
     display: block;
+    text-align: center; 
+    margin-left: 25%;
+    margin-right: 25%;  
+}
+
+p.foot{
+    margin: 10px 5px 10px 5px;
+}
+
+a{
+    text-align: center;
 }
 
 p::before {
@@ -26,4 +39,35 @@ p::before {
 
 .foot{
     text-align: center;
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+img{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote{
+    text-align: center;
+}
+
+video {
+    width: 320px;
+    height: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
