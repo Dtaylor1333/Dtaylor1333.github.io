@@ -17,31 +17,31 @@ Tested:  Sep 18, 2022; Passed on Firefox and Chrome browsers.
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Reflection Page</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="nav.css">
     </head>
     <body>
-        <nav>
-            <div class="dropdown">  
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    
-                       
+        <nav class="mobile-container">
+            <div id="myLinks">
+            <ul class="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <div class="dropdown"> 
                     <li><a href="#project.html">Projects</a>
                         <div class="dropdown-content">
                             <ul>
-                            <li><a href="#">Link 1</a></li>
-                            <li><a href="#">Link 2</a></li>
-                            <li><a href="#">Link 3</a></li>
+                            <li class="drops"><a href="#">Link 1</a></li>
+                            <li class="drop"><a href="#">Link 2</a></li>
+                            <li class="drop"><a href="#">Link 3</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="reflection.html">Personal Reflection</a></li>
-                    <li><a href="#contact.html">Contact Me</a></li>
-                    <li><a href="#project.html">My Projects</a></li>
-                </ul>
+                </div>
+                <li><a href="reflection.html">Personal Reflection</a></li>
+                <li><a href="#contact.html">Contact Me</a></li>
+            </ul>
             </div>
         </nav>
 
