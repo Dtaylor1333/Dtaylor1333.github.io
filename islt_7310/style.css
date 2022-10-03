@@ -1,3 +1,6 @@
+body{
+ background-color: #ececec;
+}
 
 h1{
     color: #003300;
@@ -45,6 +48,7 @@ p::before {
     text-align: center;
     display: block;
     background-color: black;
+    background-image: url("ryunosuke-kikuno-v7xw4p7KdFQ-unsplash.jpg");
     color: white;
     padding: 20px;
     padding-bottom: 40px;
@@ -60,11 +64,27 @@ img{
     height: auto;
 }
 
+img.small{
+    max-width: 50%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.icon{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10px;
+    flex-direction: row;
+
+}
+
 @media only screen and (max-width: 100) {
     img {
      margin: auto;
      height: auto;
-     
     }
   }
 
@@ -101,4 +121,11 @@ video {
     video {
       height: auto;
     }
+  }
+
+  
+  .zoom:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
   }
