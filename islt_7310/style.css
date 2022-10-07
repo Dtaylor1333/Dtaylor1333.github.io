@@ -178,3 +178,33 @@ video {
         width: auto;
     }
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+thead:nth-child(1),tfoot:nth-child(3) {
+    background-color: lightblue;
+}
+
+tr:nth-child(even){
+    background-color: lightgreen;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: auto;
+  }
+
+.Tcontainer{
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+}
