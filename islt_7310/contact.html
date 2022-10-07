@@ -1,0 +1,84 @@
+<!--
+*****************************************************************************
+Title:  Contact page
+
+Use:  Contact information
+
+Author:  DeAndre Taylor  
+
+School/Term:  University of Missouri, Fall 2022
+
+Developed: 10/4/2022
+
+Tested:  Oct 6, 2022; Passed on Firefox and Chrome browsers.
+******************************************************************************
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Me</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="icon" type="image/x-icon" href="DT.png">
+    </head>
+    <body>
+        <nav class="mobile-container">
+            <ul class="topnav">
+                <div id="myLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <div class="dropdown"> 
+                    <li><a href="project.html">Projects</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li class="drop"><a href="project.html">Org website</a></li>
+                                <li class="drop"><a href="project.html">Project Management</a></li>
+                                <li class="drop"><a href="project.html">Fraternity Week</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </div>
+                <li><a href="reflection.html">Personal Reflection</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </div>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+
+        <main>
+            <div class="container">
+                <form mailto:dtz8k@umsystem.com?Subject=Portfolio/Professional%20Website%20Contact target="_top" method="post" enctype="text/plain">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name.." required autofocus>
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" placeholder="Your email address.." required>
+              
+                  <label for="subject">Message</label>
+                  <textarea id="message" name="message" placeholder="Write something.." style="height:200px" required></textarea>
+              
+                  <input type="submit" value="Send">
+                </form>
+              </div>
+        </main>
+
+        <footer class="foot">
+            <div class="zoom">
+            <p>Name: DeAndre Taylor</p>
+            <img class="icon" src="phone-16.ico" alt="phone-number">
+            <p>Phone Number: 1+888-888-8888</p>
+            <img class="icon" src="inbox-8-16.ico" alt="email">
+            <p>MU Email: Dtz8k@umsystem.edu</p>
+            </div>
+            <p>Copyright @ 2022 by DeAndre Taylor</p>
+        </footer>
+    </body>
+</html>
