@@ -5,7 +5,8 @@ body{
 h1{
     color: #003300;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5%;
+    margin-bottom: 4%;
 }
 
 h2,h3{
@@ -55,7 +56,7 @@ p::before {
     margin: auto;
 }
 
-img{
+img.head, img.proj{
     margin-top: 50px;
     display: flex;
     margin-left: auto;
@@ -72,13 +73,12 @@ img.small{
     height: auto;
 }
 
-.icon{
+img.icon{
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10px;
-    flex-direction: row;
-
+    width: 15px;
+    float: left;
+    margin-left: 24%;
+    padding: 0px;
 }
 
 @media only screen and (max-width: 100) {
@@ -207,4 +207,5 @@ figcaption {
     margin-right: auto;
     width: fit-content;
     height: fit-content;
+    margin-bottom: 10%;
 }
